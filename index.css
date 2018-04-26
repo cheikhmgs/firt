@@ -1,0 +1,64 @@
+
+body{
+ background-color: #FAFAD2; 
+}
+
+
+h1{
+font-family: new century large ;
+text-align: center;
+}
+
+h6{
+text-align: center;
+}
+
+
+ .content {
+ 	position: relative;
+    background-color: #FAFAD2;    
+display: flex;
+
+ justify-content: space-around;
+ align-content: center;
+ flex-grow: 1;
+ height: 100%;
+
+}
+
+    
+.cell: nth-child(2){border: solid 1px;}
+
+.cell :  nth-child(1){
+	border: solid 1px;
+ margin: auto;
+ flex: 1;  
+    }
+
+
+
+
+.cell: nth-child(2) {
+	border: solid 1px;
+	  
+	     
+    flex: 1;
+        
+}
+
+
+
+
+p { text-align: center; }
+
+   
+
+ footer {
+ 	background: ThreeDDarkShadow;
+ 	position:absolute;
+ 	bottom: 0;
+ 	height: 100px;
+ 	width: 100%;
+ 	text-align: right;
+ }
+ 
